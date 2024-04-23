@@ -12,5 +12,6 @@ else
 fi
 cd /Advance-Filter-Bot
 pip3 install -U -r requirements.txt
-echo "Starting Bot...."
 python3 bot.py
+echo "Starting Bot...."
+
