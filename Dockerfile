@@ -12,6 +12,5 @@ RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 RUN mkdir /Advance-Filter-Bot
 WORKDIR /Advance-Filter-Bot
-CMD python3 bot.py
-#COPY start.sh /start.sh
-#CMD ["/bin/bash", "/start.sh"]
+COPY start.sh /start.sh
+CMD ["/bin/bash", "/start.sh"]
